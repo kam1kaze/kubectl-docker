@@ -1,7 +1,7 @@
-FROM alpine:3.9
+FROM alpine:3.12
 
 # curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt
-ENV KUBECTL_VERSION 1.14.2
+ENV KUBECTL_VERSION 1.20.1
 
 # Install kubectl
 RUN set -x && \
